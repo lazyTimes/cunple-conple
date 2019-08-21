@@ -113,6 +113,13 @@
             <artifactId>cunple-user-service-api</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+
+        <!--缓存 -->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>28.0-jre</version>
+        </dependency>
     </dependencies>
 
     <build>
