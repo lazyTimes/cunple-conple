@@ -43,7 +43,7 @@
 
 
 
-		<table tableName="t_coupon">
+		<table tableName="t_user">
 			<generatedKey column="id" sqlStatement="JDBC"/>
 		</table>
 

@@ -14,4 +14,6 @@ import org.springframework.stereotype.Service;
 public interface MyTestService {
 
     void run();
+
+    Object getResult(int id);
 }
