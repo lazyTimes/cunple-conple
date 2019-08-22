@@ -29,9 +29,9 @@ spring:
     filters: stat,wall
     # 通过connectProperties属性来打开mergeSql功能；慢SQL记录
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
-mybatis:
-  configuration:
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#mybatis:
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
 # dubbo config
 # 应⽤用定义了了提供⽅方应⽤用信息，⽤用于计算依赖关系；在 dubbo-admin 或 dubbo-monitor 会显示这个
@@ -63,3 +63,9 @@ dubbo:
     # 注册监控中⼼心
   monitor:
     protocol: registry
+
+logging:
+  name: xdclass-coupon
+  config: classpath:logback-spring.xml
+  level:
+    root: info
